@@ -1,0 +1,6 @@
+a = int(input("Ведите число: "))
+n = int('%s' % a)
+nn = int ('%s%s' % (a, a))
+nnn = int ('%s%s%s' % (a, a, a))
+print (f"{n} + {nn} + {nnn}")
+print (n + nn + nnn)
